@@ -107,7 +107,7 @@ export default function CollapsibleTable() {
   const [page, setPage] = React.useState(0);
   const rowsPerPage = 5;
 
-  const handleChangePage = (newPage) => {
+  const handleChangePage = (event,newPage) => {
     setPage(newPage);
   };
 
