@@ -1,0 +1,86 @@
+[
+  {
+    "department": "Customer_service",
+    "sub_departments": ["Support", "Customer_success"],
+    "key": 1
+  },
+  {
+    "department": "Design",
+    "sub_departments": ["Graphic_design", "Product_design", "Web_design"],
+    "key": 2
+  },
+  {
+    "department": "Sales",
+    "sub_departments": ["Inside_sales", "Outside_sales"],
+    "key": 3
+  },
+  {
+    "department": "Marketing",
+    "sub_departments": [
+      "Digital_marketing",
+      "Content_marketing",
+      "Social_media_marketing"
+    ],
+    "key": 4
+  },
+  {
+    "department": "Engineering",
+    "sub_departments": [
+      "Software_engineering",
+      "Hardware_engineering",
+      "Systems_engineering"
+    ],
+    "key": 5
+  },
+  {
+    "department": "Human_resources",
+    "sub_departments": [
+      "Recruitment",
+      "Employee_relations",
+      "Training_and_development"
+    ],
+    "key": 6
+  },
+  {
+    "department": "Finance",
+    "sub_departments": ["Accounting", "Taxation", "Financial_planning"],
+    "key": 7
+  },
+  {
+    "department": "Operations",
+    "sub_departments": ["Logistics", "Supply_chain", "Quality_control"],
+    "key": 8
+  },
+  {
+    "department": "Research_and_development",
+    "sub_departments": [
+      "Product_research",
+      "Technology_research",
+      "Market_research"
+    ],
+    "key": 9
+  },
+  {
+    "department": "Information_technology",
+    "sub_departments": ["Networking", "Cybersecurity", "Database_management"],
+    "key": 10
+  },
+  {
+    "department": "Public_relations",
+    "sub_departments": [
+      "Media_relations",
+      "Community_relations",
+      "Event_planning"
+    ],
+    "key": 11
+  },
+  {
+    "department": "Operations",
+    "sub_departments": [
+      "Production",
+      "Facilities_management",
+      "Health_and_safety"
+    ],
+    "key": 12
+  }
+]
