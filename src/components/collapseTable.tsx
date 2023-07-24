@@ -47,21 +47,24 @@ function Row(props) {
   };
 
   const isParentChecked = row.sub_departments.every((subDept) =>
-    selectedDepartments.includes(subDept)
-  );
-
+  selectedDepartments.includes(subDept)
+);
+  
+  const isParentIndeterminate =
+    !isParentChecked &&
+    row.sub_departments.some((subDept) =>
+      selectedDepartments.includes(subDept)
+    );
   return (
     <React.Fragment>
       <TableRow sx={{ "& > *": { borderBottom: "unset" } }}>
-        <TableCell component="th" scope="row">
-          <Checkbox
-            checked={isParentChecked}
-            indeterminate={
-              selectedDepartments.includes(row.department) && !isParentChecked
-            }
-            onChange={handleParentDepartmentSelection}
-          />
-          {row.department}
+      <TableCell component="th" scope="row">
+        <Checkbox
+          checked={isParentChecked}
+          indeterminate={isParentIndeterminate}
+          onChange={handleParentDepartmentSelection}
+        />
+        {row.department}
         </TableCell>
         <TableCell>
           <IconButton
